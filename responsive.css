@@ -1,0 +1,507 @@
+@media (min-width: 1300px) {
+  .about-us_section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1200px) {
+  .about-us_statistic{
+    width: 100%;
+  }
+
+  .about-us_who-whe-are{
+    padding: 0px 20px;
+  }
+
+  .about-us_img{
+    margin-top: 20px;
+  }
+
+  /* Our Work */
+
+  .our-work_container {
+    padding: 25px 20px;
+  }
+
+  .our-work-image img {
+    width: 300px;
+    height: 310px;
+  }
+
+  /* Our Company */
+
+  .our-company_bg {
+    height: 450px;
+  }
+
+  .our-company_text h3 {
+    font-size: 40px;
+  }
+
+  /* Latest News */
+
+  .latest-news-team_images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .latest-news-team_image {
+    width: 300px;
+  }
+
+  .latest-news-team_image img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .latest-news-team {
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Header */
+
+  .header-menu nav {
+    display: none;
+  }
+
+  .toggle_btn {
+    display: block;
+  }
+
+  .dropdown_menu {
+    display: block;
+  }
+
+  /* Our Services */
+
+  .our-services_items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our-services_item {
+    margin-right: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+
+  /* About us */
+
+  .about-us_who-whe-are {
+    padding: 0px 20px;
+    width: 100%;
+  }
+
+  .about-us_description {
+    width: 100%;
+  }
+
+  .about-us_img {
+    width: auto;
+    margin-top: 20px;
+  }
+
+  .about-us_img img {
+    width: 300px;
+    height: 400px;
+  }
+
+  .about-us_statistic{
+    width: 100%;
+  }
+
+
+  #footer_con::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 61%;
+    bottom: -15px;
+    height: 2px;
+    background-color: var(--red);
+    transition: 0.5s;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1019px) {
+  .about-us_statistic {
+    width: 100%;
+  }
+
+  /* Our work */
+
+  .our-work_container {
+    padding: 25px 40px;
+  }
+
+  .our-work-image img {
+    width: 230px;
+    height: 250px;
+  }
+
+  /* Our feedback */
+
+  .our-feedback_section div {
+    margin-top: 10px;
+  }
+
+  .our-feedback_text i::before {
+    content: open-quote;
+    position: absolute;
+    top: -29px;
+    left: 48%;
+    font-size: 50px;
+    color: gray;
+  }
+
+  /* Our Company */
+
+  .our-company_bg {
+    height: 400px;
+  }
+
+  .our-company_text h3 {
+    font-size: 30px;
+  }
+
+  /* Latest News */
+
+  .latest-news-team_images {
+    display: flex;
+  }
+
+  .latest-news-team_image {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .latest-news-team_image img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .latest-news-team {
+    height: auto;
+  }
+
+  .latest-news-team,
+  .latest-news-team_image {
+    padding: 20px 0px;
+  }
+
+  /* Footer */
+
+  .footer_container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .footer_menu,
+  .footer_sydney {
+    width: 300px;
+  }
+
+  #footer_con::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 61%;
+    bottom: -15px;
+    height: 2px;
+    background-color: var(--red);
+    transition: 0.5s;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .our-services_item {
+    width: 400px;
+    height: 400px;
+  }
+
+  .our-work-image {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our-work-image img {
+    margin: 0px 0px 30px 0px;
+    width: 370px;
+    height: 310px;
+  }
+
+  /* About Us */
+
+  .about-us_statistic {
+    width: 100%;
+  }
+
+  /* Our Feedback */
+
+  .our-feedback_section div {
+    margin-top: 5px;
+  }
+
+  .our-feedback_text i {
+    font-size: 24px;
+  }
+
+  .our-feedback_text i::before {
+    content: open-quote;
+    position: absolute;
+    top: -29px;
+    left: 42%;
+    font-size: 50px;
+    color: gray;
+  }
+
+  /* Meet Our Freinds */
+
+  .meet-our-team_image img {
+    margin-right: 0px;
+  }
+
+  /* Our Company */
+
+  .our-company_bg {
+    height: 350px;
+  }
+
+  .our-company_text h3 {
+    font-size: 25px;
+  }
+
+  /* Latest News */
+
+  .latest-news-team_images {
+    display: flex;
+  }
+
+  .latest-news-team_image {
+    width: 300px;
+  }
+
+  .latest-news-team_image img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .latest-news-team {
+    height: auto;
+  }
+
+  .latest-news-team,
+  .latest-news-team_image {
+    padding: 20px 0px;
+  }
+
+  /* logo Images */
+
+  .logo-image img {
+    width: 60px;
+    height: 80px;
+  }
+
+  /* Footer */
+
+  .footer_container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .footer_menu,
+  .footer_sydney {
+    width: 300px;
+  }
+
+  .createBy {
+    height: 70px;
+  }
+
+  .createBy_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 45px;
+  }
+
+  #footer_con::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 61%;
+    bottom: -15px;
+    height: 2px;
+    background-color: var(--red);
+    transition: 0.5s;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  /* About us */
+
+  .about-us_statistic {
+    width: 100%;
+  }
+
+  .dropdown_menu {
+    left: 2rem;
+    width: auto;
+  }
+
+  /* Our Serives */
+
+  .our-services_items {
+    padding: 0px 10px;
+  }
+
+  .our-services_item {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* Results */
+
+  .results {
+    height: 480px;
+  }
+
+  .result_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .result_coins {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* Our Work */
+
+  .our-work-image {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our-work-image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .our-work_title .main-description {
+    text-align: center;
+  }
+  /* Our Feedback */
+
+  .our-feedback_section div {
+    margin-top: 10px;
+  }
+
+  .our-feedback_text i {
+    font-size: 16px;
+  }
+
+  .our-feedback_text i::before {
+    content: open-quote;
+    position: absolute;
+    top: -29px;
+    left: 37%;
+    font-size: 50px;
+    color: gray;
+  }
+
+  /* Our Team */
+
+  .meet-our-team_content_title {
+    padding: 0px 10px;
+  }
+
+  .meet-our-team_content_title .main-description {
+    text-align: center;
+  }
+
+  .meet-our-team_image img {
+    width: 300px;
+    height: 300px;
+    margin-right: 0px;
+  }
+
+  /* Our Company */
+
+  .our-company_bg {
+    height: 250px;
+  }
+
+  .our-company_text h3 {
+    font-size: 15px;
+  }
+
+  /* Latest news */
+
+  .latest-news-team {
+    height: auto;
+  }
+
+  .latest-news-team,
+  .latest-news-team_image {
+    padding: 20px 20px;
+  }
+
+  .latest-news-team_image img {
+    width: 250px;
+    height: 250px;
+  }
+
+  /* Logo images */
+  .logo-image img {
+    width: 55px;
+    height: 55px;
+  }
+
+  /* Footer */
+  .footer_container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .footer_menu,
+  .footer_sydney {
+    width: 300px;
+  }
+
+  .createBy {
+    height: 80px;
+  }
+
+  .createBy_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 45px;
+  }
+
+  #footer_con::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 61%;
+    bottom: -15px;
+    height: 2px;
+    background-color: var(--red);
+    transition: 0.5s;
+  }
+}

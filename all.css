@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  color: white;
+  font-size: 54px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.description {
+  font-size: 33px;
+  color: #e2e3e6;
+}
+
+.btn {
+  padding: 10px 20px;
+  text-align: center;
+  border: none;
+  background-color: #d83a3a;
+  color: white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.main_title {
+  text-transform: uppercase;
+  font-size: 36px;
+  color: black;
+  text-align: center;
+}
+
+.main-description {
+  color: #a2a4aa;
+}
+
+.our-services_view a {
+  text-decoration: underline;
+  color: #868990;
+}
+
+.our-services_view {
+  margin-top: 30px;
+}
+
+main{
+  overflow: hidden;
+}
